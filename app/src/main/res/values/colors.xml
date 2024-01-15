@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="c_art">#12DE00</color>
+    <color name="c_games">#FF0000</color>
+    <color name="c_video">#00D1FF</color>
+    <color name="c_audio">#FAFF03</color>
+    <color name="c_audio_2">#A3A600</color>
+
+</resources>

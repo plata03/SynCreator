@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "125287725260",
+    "project_id": "syncreator-9906d",
+    "storage_bucket": "syncreator-9906d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:125287725260:android:db2cfad53b026b2778aa69",
+        "android_client_info": {
+          "package_name": "com.ildreamteamjsx.syncreator"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_evFTar4tbTVIkI13sn9yS8CNM9yIRl0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#222222"
+    android:padding="15dp"
+    tools:context=".NewProjectActivity">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/syncreatorslogo"
+        android:id="@+id/synlogo"
+        android:layout_marginTop="25dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Project"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/synlogo"
+        android:id="@+id/new_proj"
+        android:textSize="30dp" />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="48dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:hint="Title"
+        android:textColor="@color/white"
+        android:id="@+id/new_title"
+        android:textColorHint="@color/white"
+        app:layout_constraintTop_toBottomOf="@+id/new_proj"
+        android:layout_marginTop="25dp"
+         />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Category"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/new_title"
+        android:id="@+id/cate"
+        android:layout_marginTop="15dp" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="15dp"
+        android:id="@+id/radio_group"
+        app:layout_constraintTop_toBottomOf="@id/cate">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radio_games"
+            android:paddingLeft="2dp"
+            android:text="Games"
+            android:layout_marginRight="20dp"
+            android:textColor="@color/white"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radio_art"
+            android:paddingLeft="2dp"
+            android:layout_marginRight="20dp"
+            android:text="Art"
+            android:textColor="@color/white"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radio_video"
+            android:paddingLeft="2dp"
+            android:layout_marginRight="20dp"
+            android:text="Video"
+            android:textColor="@color/white"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radio_audio"
+            android:paddingLeft="2dp"
+            android:text="Audio"
+            android:textColor="@color/white"/>
+
+    </RadioGroup>
+
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="48dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/radio_group"
+        android:hint="Description"
+        android:inputType="textMultiLine"
+        android:layout_marginTop="25dp"
+        android:textColor="@color/white"
+        android:lines="10"
+        android:id="@+id/new_desc"
+        android:textColorHint="@color/white" />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/newProject_btn"
+        android:text="Confirm"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/new_desc"
+        android:layout_marginTop="40dp"
+        app:strokeColor="@color/white"
+        android:padding="15dp"
+        android:backgroundTint="#222222"
+        app:strokeWidth="3dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

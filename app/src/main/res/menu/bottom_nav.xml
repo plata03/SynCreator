@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <item
+        android:id="@+id/nav_games"
+        android:icon="@drawable/game"
+        android:title="Games" />
+    <item
+        android:id="@+id/nav_art"
+        android:icon="@drawable/art_new"
+        android:title="Art" />
+    <item
+        android:id="@+id/nav_search"
+        android:icon="@drawable/baseline_search_24"
+        android:title="Search"
+        />
+    <item
+        android:id="@+id/nav_video"
+        android:icon="@drawable/video"
+        android:title="Video" />
+    <item
+        android:id="@+id/nav_audio"
+        android:icon="@drawable/audio"
+        android:title="Audio" />
+
+</menu>
